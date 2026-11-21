@@ -1,0 +1,20 @@
+{
+  "name": "project-management-app",
+  "version": "1.0.0",
+  "description": "Full-stack Bug Tracker & Issue Management App (MERN Stack with JavaScript)",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "bug-tracker",
+    "issue-tracker",
+    "mern",
+    "kanban",
+    "react19",
+    "javascript"
+  ],
+  "license": "MIT"
+}
